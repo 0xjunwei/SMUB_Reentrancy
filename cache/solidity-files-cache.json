@@ -1,0 +1,79 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/limjunwei/Documents/reentrancy demo/contracts/TheAttacker.sol": {
+      "lastModificationDate": 1754293580539,
+      "contentHash": "8626fb0eadf69c3e6998048586b08fd2",
+      "sourceName": "contracts/TheAttacker.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TheBank.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "TheAttacker"
+      ]
+    },
+    "/Users/limjunwei/Documents/reentrancy demo/contracts/TheBank.sol": {
+      "lastModificationDate": 1754294844369,
+      "contentHash": "70111e4733fcdf13e3f99560222f1b9e",
+      "sourceName": "contracts/TheBank.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "TheBank"
+      ]
+    }
+  }
+}
